@@ -1,0 +1,41 @@
+@media screen and (min-width:992px)
+{
+    .container-skill, .container-estudios
+    {
+        transition: all 0.4s linear;
+        transform-origin: top;
+        cursor: pointer;
+    }   
+   .container-skill:hover, .container-estudios:hover 
+   {
+        transform:translateY(-10px)
+   }
+   .container-estudios:hover .fa-award 
+   {
+       animation: award 1s 1 linear;
+       transform-origin: top;
+   } 
+   @keyframes award 
+   {
+       0% 
+       {
+        transform: rotate(65deg);
+       }
+       25%
+       {
+        transform: rotate(-65deg);
+       }
+       50%
+       {
+        transform: rotate(45deg);
+       }
+       75% 
+       {
+        transform: rotate(-45deg);
+       }
+       100%
+       {
+        transform: rotate(0);
+       }
+   }
+}

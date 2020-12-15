@@ -1,0 +1,74 @@
+a:hover
+{
+    text-decoration: none;
+}
+
+a:hover div 
+{
+    transition: all 0.5s linear;
+}
+a:hover div:hover 
+    {
+        background-color: rgb(42, 164, 180) !important;
+        border-radius: 100px !important;
+    }
+.nombre-animation 
+{
+    animation: nombre-animation 1 2.5s linear;
+    overflow: hidden;
+    white-space: nowrap;
+    transform-origin: left;
+}
+@keyframes nombre-animation 
+{
+    from 
+    {
+        width: 0;
+        margin-left:10px;
+    } to 
+    {
+        width: 100%;
+    }
+}
+.soy-animation 
+{
+    animation: soy-animation 1 2s linear 2s both;
+    
+}
+@keyframes soy-animation
+{
+    from 
+    {
+        opacity: 0;
+        transform: scale(0);
+    } to 
+    {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
+.girar 
+{
+    animation: girar 3s linear;
+}
+.bg-title 
+{
+    background: linear-gradient(rgb(42, 164, 180) , rgb(52, 219, 241));
+}
+.text-title 
+{
+    color:rgb(42, 164, 180);
+}
+#animation-photo 
+{
+    background: linear-gradient(180deg,rgb(42, 164, 180) 93%,#fff);
+}
+@keyframes girar 
+{
+    from{
+        transform: rotate(0deg);
+        
+    } to{
+        transform: rotate(360deg);
+    }
+}
