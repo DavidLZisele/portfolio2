@@ -37,6 +37,14 @@
     {
         max-width: 1199px;
     }
+    a > img:hover
+    {
+        filter: brightness(60%)
+    }
+    a > img 
+    {
+        transition: all 0.4s linear;
+    }
 }
 @media screen and (min-width:1200px) 
 {
