@@ -14,6 +14,7 @@ window.onload = function()
         ScrollReveal().reveal('.uvc', {delay: 800})
         ScrollReveal().reveal('.aco', {delay: 500})
         ScrollReveal().reveal('.ymm', {delay: 600})
+        ScrollReveal().reveal('.intraandes', {delay: 700})
    } else if(screen.width >= 992 && screen.width <1200)
    {
         ScrollReveal().reveal('#git', {delay: 500})
@@ -28,6 +29,7 @@ window.onload = function()
         ScrollReveal().reveal('.uvc', {delay: 500})
         ScrollReveal().reveal('.aco', {delay: 600})
         ScrollReveal().reveal('.ymm', {delay: 500})
+        ScrollReveal().reveal('.intraandes', {delay: 600})
    
    } else if (screen.width >= 768 && screen.width <992)
    {
@@ -46,6 +48,7 @@ window.onload = function()
         ScrollReveal().reveal('.uvc', {delay: 500})
         ScrollReveal().reveal('.aco', {delay: 600})
         ScrollReveal().reveal('.ymm', {delay: 500})
+        ScrollReveal().reveal('.intraandes', {delay: 600})
    } else
    {
         ScrollReveal().reveal('#html', {delay: 500})
@@ -63,5 +66,6 @@ window.onload = function()
         ScrollReveal().reveal('.uvc', {delay: 500})
         ScrollReveal().reveal('.aco', {delay: 500})
         ScrollReveal().reveal('.ymm', {delay: 500})
+        ScrollReveal().reveal('.intraandes', {delay: 500})
    }
 }
