@@ -45,6 +45,15 @@
     {
         transition: all 0.4s linear;
     }
+    .intraandes img:hover
+    {
+        filter: brightness(60%)
+    }
+    .intraandes  img 
+    {
+        transition: all 0.4s linear;
+        cursor: pointer;
+    }
 }
 @media screen and (min-width:1200px) 
 {
