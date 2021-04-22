@@ -68,7 +68,7 @@ window.onload = function()
         ScrollReveal().reveal('.promo', {delay: 500,reset:true,distance: '5%',origin: 'top'})
         ScrollReveal().reveal('.uvc', {delay: 500,reset:true,distance: '5%',origin: 'top'})
         ScrollReveal().reveal('.aco', {delay: 500,reset:true,distance: '5%',origin: 'top'})
-        ScrollReveal().reveal('.ymm', {delay: 500,distance: '5%',origin: 'top'})
+        ScrollReveal().reveal('.ymm', {delay: 500,reset:true,distance: '5%',origin: 'top'})
         ScrollReveal().reveal('.intraandes', {delay: 500,distance: '5%',origin: 'top'})
         ScrollReveal().reveal('.electroven', {delay: 500,distance: '5%',origin: 'top'})
    }
